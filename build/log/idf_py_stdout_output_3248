@@ -1,0 +1,51 @@
+[1/46] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_access.c.obj
+[2/46] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_apis.c.obj
+[3/46] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D G:\esp\Esp32\innoway_test4_backup\build\bootloader\esp-idf\esptool_py && G:\esp\Espressif\python_env\idf5.0_py3.11_env\Scripts\python.exe G:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 G:/esp/Esp32/innoway_test4_backup/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6710 bytes. 0x8f0 bytes (8%) free.
+[4/44] Building C object esp-idf/json/CMakeFiles/__idf_json.dir/cJSON/cJSON_Utils.c.obj
+[5/44] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.obj
+[6/44] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.obj
+[7/44] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj
+[8/44] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.obj
+[9/44] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj
+[10/44] Building C object esp-idf/json/CMakeFiles/__idf_json.dir/cJSON/cJSON.c.obj
+[11/44] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_cache.c.obj
+[12/44] Linking C static library esp-idf\perfmon\libperfmon.a
+[13/44] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs_api.c.obj
+[14/44] Linking C static library esp-idf\json\libjson.a
+[15/44] Linking C static library esp-idf\fatfs\libfatfs.a
+[16/44] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_check.c.obj
+[17/44] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_gc.c.obj
+[18/44] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_hydrogen.c.obj
+[19/44] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.obj
+[20/44] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/spiffs/src/spiffs_nucleus.c.obj
+[21/44] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_config.c.obj
+[22/44] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/wifi_scan.c.obj
+[23/44] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_config.pb-c.c.obj
+[24/44] Building C object esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/esp_spiffs.c.obj
+[25/44] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/handlers.c.obj
+[26/44] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_softap.c.obj
+[27/44] Linking C static library esp-idf\mqtt\libmqtt.a
+[28/44] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/scheme_console.c.obj
+[29/44] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_scan.pb-c.c.obj
+[30/44] Linking C static library esp-idf\spiffs\libspiffs.a
+[31/44] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/proto-c/wifi_constants.pb-c.c.obj
+[32/44] Building C object esp-idf/mqtt_lib/CMakeFiles/__idf_mqtt_lib.dir/mqtt_lib.c.obj
+FAILED: esp-idf/mqtt_lib/CMakeFiles/__idf_mqtt_lib.dir/mqtt_lib.c.obj 
+ccache G:\esp\Espressif\tools\xtensa-esp32-elf\esp-2022r1-11.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -IG:/esp/Esp32/innoway_test4_backup/build/config -IG:/esp/Esp32/innoway_test4_backup/common/mqtt_lib -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/newlib/platform_include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/freertos/FreeRTOS-Kernel/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/freertos/esp_additions/include/freertos -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/freertos/esp_additions/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/esp_hw_support/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/esp_hw_support/include/soc -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/esp_hw_support/include/soc/esp32 -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/esp_hw_support/port/esp32/. -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/esp_hw_support/port/esp32/private_include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/heap/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/log/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/soc/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/soc/esp32/. -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/soc/esp32/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/hal/esp32/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/hal/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/hal/platform_port/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/esp_rom/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/esp_rom/include/esp32 -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/esp_rom/esp32 -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/esp_common/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/esp_system/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/esp_system/port/soc -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/esp_system/port/include/private -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/xtensa/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/xtensa/esp32/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/lwip/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/lwip/include/apps -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/lwip/include/apps/sntp -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/lwip/lwip/src/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/lwip/port/esp32/include -IG:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/lwip/port/esp32/include/arch -mlongcalls -Wno-frame-address  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=G:/esp/Esp32/innoway_test4_backup=. -fmacro-prefix-map=G:/esp/Espressif/frameworks/esp-idf-v5.0.2=/IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu17 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v5.0.2-dirty\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS -MD -MT esp-idf/mqtt_lib/CMakeFiles/__idf_mqtt_lib.dir/mqtt_lib.c.obj -MF esp-idf\mqtt_lib\CMakeFiles\__idf_mqtt_lib.dir\mqtt_lib.c.obj.d -o esp-idf/mqtt_lib/CMakeFiles/__idf_mqtt_lib.dir/mqtt_lib.c.obj -c G:/esp/Esp32/innoway_test4_backup/common/mqtt_lib/mqtt_lib.c
+G:/esp/Esp32/innoway_test4_backup/common/mqtt_lib/mqtt_lib.c:2:10: fatal error: mqtt_client.h: No such file or directory
+    2 | #include <mqtt_client.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+[33/44] Building C object esp-idf/gpio_lib/CMakeFiles/__idf_gpio_lib.dir/gpio_lib.c.obj
+[34/44] Building C object esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/src/manager.c.obj
+[35/44] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj
+In file included from G:/esp/Esp32/innoway_test4_backup/main/app_main.c:12:
+G:/esp/Esp32/innoway_test4_backup/common/mqtt_lib/mqtt_lib.h:12:13: warning: 'log_error_if_nonzero' declared 'static' but never defined [-Wunused-function]
+   12 | static void log_error_if_nonzero(const char *message, int error_code);
+      |             ^~~~~~~~~~~~~~~~~~~~
+G:/esp/Esp32/innoway_test4_backup/main/app_main.c:29:20: warning: 'MQTT_TAG' defined but not used [-Wunused-variable]
+   29 | static const char *MQTT_TAG = "mqtt_connect";
+      |                    ^~~~~~~~
+ninja: build stopped: subcommand failed.

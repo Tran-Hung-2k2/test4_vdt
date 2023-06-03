@@ -3,4 +3,3 @@ source "G:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/esp_app_format/Kco
 source "G:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/esp_rom/Kconfig.projbuild"
 source "G:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/esptool_py/Kconfig.projbuild"
 source "G:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/partition_table/Kconfig.projbuild"
-source "G:/esp/Espressif/frameworks/esp-idf-v5.0.2/examples/common_components/protocol_examples_common/Kconfig.projbuild"

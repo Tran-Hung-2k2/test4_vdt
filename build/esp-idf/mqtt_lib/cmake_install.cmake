@@ -1,4 +1,4 @@
-# Install script for directory: G:/esp/Espressif/frameworks/esp-idf-v5.0.2/examples/common_components/protocol_examples_common
+# Install script for directory: G:/esp/Esp32/innoway_test4_backup/common/mqtt_lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
