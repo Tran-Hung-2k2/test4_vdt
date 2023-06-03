@@ -1,0 +1,5 @@
+[0/1] Re-running CMake...
+-- Configuring incomplete, errors occurred!
+See also "G:/esp/Esp32/bai2/build/CMakeFiles/CMakeOutput.log".
+FAILED: build.ninja 
+G:\esp\Espressif\tools\cmake\3.24.0\bin\cmake.exe --regenerate-during-build -SG:\esp\Esp32\bai2 -BG:\esp\Esp32\bai2\build

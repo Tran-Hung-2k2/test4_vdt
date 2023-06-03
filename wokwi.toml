@@ -1,0 +1,5 @@
+[wokwi]
+version = 1
+rfc2217ServerPort = 4000
+firmware = '\build\smart_config.bin'
+elf = '\build\smart_config.elf'

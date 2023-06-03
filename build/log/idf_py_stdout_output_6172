@@ -1,0 +1,4 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D G:\esp\Esp32\bai2\build\bootloader\esp-idf\esptool_py && G:\esp\Espressif\python_env\idf5.0_py3.11_env\Scripts\python.exe G:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 G:/esp/Esp32/bai2/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6710 bytes. 0x8f0 bytes (8%) free.
+ninja: build stopped: interrupted by user.

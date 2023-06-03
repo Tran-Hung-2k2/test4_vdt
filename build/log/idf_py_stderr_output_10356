@@ -1,0 +1,9 @@
+CMake Error at G:/esp/Espressif/frameworks/esp-idf-v5.0.2/tools/cmake/project.cmake:243 (message):
+  Directory specified in EXTRA_COMPONENT_DIRS doesn't exist:
+  G:/esp/Esp32/bai2/common
+Call Stack (most recent call first):
+  G:/esp/Espressif/frameworks/esp-idf-v5.0.2/tools/cmake/project.cmake:327 (__project_init)
+  CMakeLists.txt:7 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

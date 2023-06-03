@@ -1,0 +1,18 @@
+CMake Error at G:/esp/Espressif/frameworks/esp-idf-v5.0.2/tools/cmake/component.cmake:484 (add_library):
+  Cannot find source file:
+
+    G:/esp/Esp32/bai2/common/uart_lib/gpio_lib.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+Call Stack (most recent call first):
+  common/uart_lib/CMakeLists.txt:3 (idf_component_register)
+
+
+CMake Error at G:/esp/Espressif/frameworks/esp-idf-v5.0.2/tools/cmake/component.cmake:484 (add_library):
+  No SOURCES given to target: __idf_uart_lib
+Call Stack (most recent call first):
+  common/uart_lib/CMakeLists.txt:3 (idf_component_register)
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
