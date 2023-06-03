@@ -16,24 +16,18 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "protocol_examples_common.h"
-
-// #include "lwip/dns.h"
-// #include "lwip/netdb.h"
-// #include "lwip/sockets.h"
-
-#define device_ID   "5570bd21-761d-45e2-99e8-56f43ced32ec"
 #define MQTT_Broker "mqtt://mqtt.innoway.vn"
-#define PASSWORD    "MCSvgZLO56gyYTOK9a5EVCxbb1gsjWLe"
 #define USERNAME    "TranHung"
+#define PASSWORD    "MCSvgZLO56gyYTOK9a5EVCxbb1gsjWLe"
+#define device_ID   "5570bd21-761d-45e2-99e8-56f43ced32ec"
 #define BUTTON_PIN  GPIO_NUM_0
+
 static esp_mqtt_client_handle_t client;
 static EventGroupHandle_t s_wifi_event_group;
-
 static const int CONNECTED_BIT = BIT0;
 static const int ESPTOUCH_DONE_BIT = BIT1;
-static const char *MQTT_TAG = "MQTT_STATUS";
-static const char *SMARTCONFIG_TAG = "smartconfig";
+static const char *MQTT_TAG = "mqtt_connect";
+static const char *SMARTCONFIG_TAG = "smart_config";
 static int buttonPressCount = 0;
 static int isLedOn = 0;
 static int current_led = 2;

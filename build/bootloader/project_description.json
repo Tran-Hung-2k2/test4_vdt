@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "G:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/bootloader/subproject",
-    "build_dir":          "G:/esp/Esp32/bai2/build/bootloader",
-    "config_file":        "G:/esp/Esp32/bai2/sdkconfig",
+    "build_dir":          "G:/esp/Esp32/innoway_test4/build/bootloader",
+    "config_file":        "G:/esp/Esp32/innoway_test4/sdkconfig",
     "config_defaults":    "",
     "bootloader_elf":     "",
     "app_elf":            "bootloader.elf",

@@ -1,4 +1,4 @@
-# Install script for directory: G:/esp/Esp32/bai2/main
+# Install script for directory: G:/esp/Esp32/innoway_test4/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

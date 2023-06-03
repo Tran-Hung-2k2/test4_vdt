@@ -1,4 +1,4 @@
-# Install script for directory: G:/esp/Esp32/bai2
+# Install script for directory: G:/esp/Esp32/innoway_test4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("G:/esp/Esp32/bai2/build/esp-idf/cmake_install.cmake")
+  include("G:/esp/Esp32/innoway_test4/build/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "G:/esp/Esp32/bai2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "G:/esp/Esp32/innoway_test4/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
