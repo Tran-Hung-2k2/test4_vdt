@@ -1,0 +1,109 @@
+{
+  "ruleChain": {
+    "additionalInfo": {
+      "description": ""
+    },
+    "name": "main",
+    "projectId": null,
+    "firstRuleNodeId": null,
+    "root": false,
+    "debugMode": false,
+    "configuration": null
+  },
+  "metadata": {
+    "firstNodeIndex": 2,
+    "nodes": [
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 452,
+          "layoutY": 306
+        },
+        "type": "org.iot.rule.engine.transform.TbTransformMsgNode",
+        "name": "sendcode",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "return {msg: {\"code\": 1}, metadata: metadata, msgType: msgType};"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 746,
+          "layoutY": 303
+        },
+        "type": "org.iot.rule.engine.mqtt.PublishMqttToDeviceNode",
+        "name": "sendcode",
+        "debugMode": false,
+        "configuration": {
+          "topicPattern": "messages/${deviceID}/status",
+          "retain": true
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 266,
+          "layoutY": 151
+        },
+        "type": "org.iot.rule.engine.filter.TbJsSwitchNode",
+        "name": "switch",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "return [metadata.topic]"
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 548,
+          "layoutY": 144
+        },
+        "type": "org.iot.rule.engine.telemetry.TbMsgAttributesNode",
+        "name": "save",
+        "debugMode": false,
+        "configuration": {
+          "scope": "SERVER_SCOPE",
+          "notifyDevice": null,
+          "loggedHistory": null
+        }
+      },
+      {
+        "additionalInfo": {
+          "description": "",
+          "layoutX": 196,
+          "layoutY": 305
+        },
+        "type": "org.iot.rule.engine.filter.TbJsFilterNode",
+        "name": "check",
+        "debugMode": false,
+        "configuration": {
+          "jsScript": "const {\n    heartbeat\n} = msg;\nif(typeof(heartbeat) == \"undefined\") return false;\nreturn true;"
+        }
+      }
+    ],
+    "connections": [
+      {
+        "fromIndex": 0,
+        "toIndex": 1,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 2,
+        "toIndex": 3,
+        "type": "update"
+      },
+      {
+        "fromIndex": 3,
+        "toIndex": 4,
+        "type": "Success"
+      },
+      {
+        "fromIndex": 4,
+        "toIndex": 0,
+        "type": "True"
+      }
+    ],
+    "ruleChainConnections": null
+  }
+}
