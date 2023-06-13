@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("G:/esp/Esp32/innoway_test4_backup/build/esp-idf/newlib/port/cmake_install.cmake")
+  include("G:/esp/Esp32/innoway_test4/build/esp-idf/newlib/port/cmake_install.cmake")
 endif()
 
