@@ -1,4 +1,4 @@
-# Install script for directory: G:/esp/Esp32/innoway_test4_backup/common/gpio_lib
+# Install script for directory: G:/esp/Esp32/innoway_test4/common/gpio_lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
