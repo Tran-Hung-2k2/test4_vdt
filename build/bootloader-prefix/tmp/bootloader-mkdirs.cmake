@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "G:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/bootloader/subproject"
-  "G:/esp/Esp32/innoway_test4_backup/build/bootloader"
-  "G:/esp/Esp32/innoway_test4_backup/build/bootloader-prefix"
-  "G:/esp/Esp32/innoway_test4_backup/build/bootloader-prefix/tmp"
-  "G:/esp/Esp32/innoway_test4_backup/build/bootloader-prefix/src/bootloader-stamp"
-  "G:/esp/Esp32/innoway_test4_backup/build/bootloader-prefix/src"
-  "G:/esp/Esp32/innoway_test4_backup/build/bootloader-prefix/src/bootloader-stamp"
+  "G:/esp/Esp32/innoway_test4/build/bootloader"
+  "G:/esp/Esp32/innoway_test4/build/bootloader-prefix"
+  "G:/esp/Esp32/innoway_test4/build/bootloader-prefix/tmp"
+  "G:/esp/Esp32/innoway_test4/build/bootloader-prefix/src/bootloader-stamp"
+  "G:/esp/Esp32/innoway_test4/build/bootloader-prefix/src"
+  "G:/esp/Esp32/innoway_test4/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "G:/esp/Esp32/innoway_test4_backup/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "G:/esp/Esp32/innoway_test4/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "G:/esp/Esp32/innoway_test4_backup/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "G:/esp/Esp32/innoway_test4/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()
