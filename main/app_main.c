@@ -19,7 +19,7 @@
 
 #define MQTT_Broker "mqtt://mqtt.innoway.vn"
 #define USERNAME    "TranHung"
-#define PASSWORD    "MCSvgZLO56gyYTOK9a5EVCxbb1gsjWLe"
+#define PASSWORD    "ls8M4bx7zK8BKU6xj63LbHOLzl57X9Hy"
 #define device_ID   "5570bd21-761d-45e2-99e8-56f43ced32ec"
 #define BUTTON_PIN  GPIO_NUM_0
 
@@ -265,8 +265,8 @@ void mqtt_setup() {
 
 void app_main(void) {
     ESP_ERROR_CHECK(nvs_flash_init());
-    create_io(GPIO_NUM_0, GPIO_MODE_INPUT, GPIO_INTR_ANYEDGE);
-    create_io(current_led, GPIO_MODE_OUTPUT, GPIO_INTR_DISABLE);
+    gpio_init_io(GPIO_NUM_0, GPIO_MODE_INPUT, GPIO_INTR_ANYEDGE);
+    gpio_init_io(current_led, GPIO_MODE_OUTPUT, GPIO_INTR_DISABLE);
     // Chạy 1 task mới để kiểm tra trạng thái bấm của button 0
     xTaskCreate(buttonTask, "buttonTask", 1024, NULL, 5, NULL);
     // Thực hiện đăng ký các hàm xử lý sự kiện cho MQTT event

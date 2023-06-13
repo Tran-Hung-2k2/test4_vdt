@@ -24,9 +24,9 @@ GPIO_MODE_DISABLE
 GPIO_MODE_INPUT
 GPIO_MODE_OUTPUT
 */
-void create_io(gpio_num_t gpio_num, gpio_mode_t mode,
-               gpio_int_type_t intr_type);
-void set_intr_io(gpio_num_t gpio_num, gpio_isr_t isr_handle, void *args);
-void toggle_io_level(gpio_num_t gpio_num);
+void gpio_init_io(gpio_num_t gpio_num, gpio_mode_t mode,
+                  gpio_int_type_t intr_type);
+void gpio_set_intr(gpio_num_t gpio_num, gpio_isr_t isr_handle, void *args);
+void gpio_toggle_level(gpio_num_t gpio_num);
 
 #endif

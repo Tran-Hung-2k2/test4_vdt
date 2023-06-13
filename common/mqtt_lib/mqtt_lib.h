@@ -8,8 +8,6 @@ typedef void (*unsub_event_callback_t)(void);
 typedef void (*pub_event_callback_t)(void);
 typedef void (*data_event_callback_t)(char *, char *);
 
-// Hàm log lỗi nếu mã lỗi khác 0
-void log_error_if_nonzero(const char *message, int error_code);
 // Hàm khởi tạo và kết nối với broker MQTT
 void mqtt_app_start(char *broker_uri, char *username, char *password);
 // Subscribe topic

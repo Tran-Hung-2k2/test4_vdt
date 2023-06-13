@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 
-static const char *MQTT_TAG = "MQTT_event";
+static const char *MQTT_TAG = "mqtt_events";
 static esp_mqtt_client_handle_t client;
 static conn_event_callback_t conn_event_callback = NULL;
 static disconn_event_callback_t disconn_event_callback = NULL;
